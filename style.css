@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+  }
+  body{
+   max-height: 100vh;
+   background-color: hsl(229, 57%, 11%);
+  }
+  main{
+   background-image: url(images/bg-desktop.png);
+   background-position: bottom;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   height: 60vmin;
+   margin-top: 50vmin;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  .action-card{
+   background-color: #1e2d69;
+   padding: 40px;
+   height: 200px;
+   width: 350px;
+   position: absolute;
+   top: 50%;
+   right: 45%;
+   transform: translate(-50%, -50%);
+   border-radius: 10px 100px 10px 10px;
+   flex-shrink: 0;
+  }
+  .logo{
+   margin-bottom: 30px;
+  }
+  .actions{
+  display: flex;
+  gap: 15px;
+  }
+  .icon{
+   border: 13px solid hsl(229, 57%, 11%);
+   border-radius: 10px;
+   width: 52px;
+   height: 48px;
+   background-color: hsl(229, 57%, 11%);
+  }
+  .storage-card{
+   background-color: #1e2d69;
+   width: 500px;
+   height: 156px;
+   position: absolute;
+   top: 54%;
+   left: 63%;
+   transform: translate(-50%, -50%);
+   padding: 30px;
+   border-radius: 10px;
+  }
+  p{
+   color: #dbd9ff;
+   font-weight: 400;
+   font-size: 14px;
+   margin-bottom: 16px;
+  }
+  span{
+   font-weight: 700;
+  }
+  .progress-bar{
+   width: 100%;
+   background-color: hsl(229, 57%, 11%);
+   height: 20px;
+   border-radius: 1rem;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 10px;
+  }
+  #progress-fill{
+   height: 14px;
+   background: linear-gradient(to right, #ffa197, #ff4a95);
+   width: 80%;
+   border-radius: 1rem;
+   margin-left: 3.5px;
+   position: relative;
+  }
+  #progress-knob{
+   background-color: #fff;
+   height: 10px;
+   width: 10px;
+   border-radius: 50%;
+   justify-content: flex-end;
+   margin: 2px;
+   position: absolute;
+   right: 0;
+  }
+  .progress-labels {
+   display: flex;
+   justify-content: space-between;
+ }
+ .progress-labels span{
+   color: #dbd9ff;
+   font-size: 12px;
+   font-weight: 700;
+ }
+ .remaining-storage{
+   background-color: white;
+   position: absolute;
+   bottom: 80%;
+   left: 60%;
+   height: 75px;
+   width: 165px;
+   display: flex;
+   border-radius: 0.5rem;
+   align-items: center;
+   justify-content: center;
+ }
+ h1{
+   font-size: 40px;
+   color: #0c122c;
+   font-weight: 700;
+ }
+ .remaining-storage span{
+   font-size: 12px;
+   color: #0c122c;
+   letter-spacing: 1px;
+  opacity: 0.5;
+  font-weight: 700;
+ }
